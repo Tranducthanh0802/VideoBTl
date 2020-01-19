@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout
+    android:layout_width="@dimen/_150sdp"
+    android:layout_height="@dimen/_200sdp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="1.7"
+android:padding="@dimen/_4sdp"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:id="@+id/img"
+        />
+        <ImageView
+            android:layout_width="@dimen/_22sdp"
+            android:layout_height="@dimen/_22sdp"
+            android:src="@drawable/nut2"
+            android:layout_centerInParent="true"
+            /><ImageView
+            android:layout_width="@dimen/_12sdp"
+            android:layout_height="@dimen/_12sdp"
+            android:src="@drawable/nut1"
+            android:paddingLeft="@dimen/_3sdp"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+    <TextView
+        android:padding="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="Ten"
+        android:background="@color/mauicon"
+        android:textSize="@dimen/_14sdp"
+        android:textColor="@color/ChuMain"
+        android:id="@+id/txtTen"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/mauicon"
+        android:layout_weight="0.2">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="lorem ipsum "
+            android:textColor="@color/ChuPhu"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:id="@+id/txtMota"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10:55"
+            android:textColor="@color/ChuPhu"
+            android:layout_toRightOf="@+id/txtMota"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_22sdp"
+            android:id="@+id/txtTime"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>
